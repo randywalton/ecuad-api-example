@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canadian Weather App</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./build/css/styles-min.css">
+</head>
+<body>
+
+    <header>
+        <h1>Canadian Weather</h1>
+    </header>
+    
+
+    <main>
+
+        <label class="screen-reader" for="city-select">Choose a Canadian City:</label>
+
+        <select name="cities" id="city-select">
+            <option value="">-- Choose a City --</option>
+
+            <option value="ottawa">Ottawa</option>
+            <option value="halifax">Halifax</option>
+            <option value="fredericton">Fredericton</option>
+            <option value="charlottetown">Charlottetown</option>
+            <option value="québec">Québec</option>
+            <option value="toronto">Toronto</option>
+            <option value="winnipeg">Winnipeg</option>
+            <option value="regina">Regina</option>
+            <option value="edmonton">Edmonton</option>
+            <option value="victoria">Victoria</option>
+            <option value="iqaluit">Iqaluit</option>
+            <option value="yellowknife">Yellowknife</option>
+            <option value="whitehorse">Whitehorse</option>
+
+        </select>
+
+
+
+        <div id="city-weather" class="city-weather">
+          
+        </div>
+
+
+    </main>
+    
+
+    <script src="./build/js/index-min.js"></script>
+</body>
+</html>
