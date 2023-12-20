@@ -25,14 +25,13 @@ citySelect.addEventListener("change", (event) => {
 
 
 
-
 /* -----------------------------
 Function to fetch the API data 
 ----------------------------- */
 
 function getWeather(city) {
 
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=a532f5f97f798ba375363a1e3dc89417`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=put-access-key-here`)
         .then((response) => {
             return response.json();
         })
